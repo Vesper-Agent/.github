@@ -12,6 +12,3 @@ While we love the open-source community and are actively working toward public r
 
 If you are browsing our organization and it looks a bit empty, it is simply because our active repositories, internal documentation, and sensitive configurations are hidden from public view.
 
-### 📬 Contact & Access
-
-If you are a new team member, a collaborator, or a recruiter needing access to specific repositories to review our work (such as the Vesper SDK, FinOps Engine, or Security Guardrails):
