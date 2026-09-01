@@ -1,14 +1,51 @@
-# Welcome to Vesper-Agent
+<div align="center">
+<img height="50" alt="Vesper-logo-no-bg" src="https://github.com/user-attachments/assets/2e954719-ea65-46c9-86fb-6d0e5af67330" />
+  
+# Vesper-Agent 
 
-Welcome to our official GitHub organization\! We are a dedicated team of developers building robust, high-performance production infrastructure for AI agent fleets.
 
-### What We Do
+### Production infrastructure for AI agent fleets.
 
-We specialize in bridging the gap between an AI prototype and a reliable, production-ready system. Our flagship project, **Vesper**, provides a comprehensive 7-layer architecture that wraps around your existing agent logic. We handle the heavy lifting: persistent memory, cost tracking (FinOps), strict security guardrails, quality evaluation, and multi-agent communication—all configurable from a single YAML file.
+We build the layer that turns AI prototypes into reliable, governed, production systems.
 
-### 🔒 Repository Visibility & Open Source
+[Website](https://vesperagent.vercel.app) · [Documentation](https://vesperagent.vercel.app/docs)
 
-While we love the open-source community and are actively working toward public releases, the majority of our core infrastructure, active v1.0 development, and proprietary code is currently kept in **private repositories** for security and stability reasons.
+</div>
 
-If you are browsing our organization and it looks a bit empty, it is simply because our active repositories, internal documentation, and sensitive configurations are hidden from public view.
+---
 
+## Who we are
+
+Vesper-Agent is a team of developers building robust, high-performance
+infrastructure for running AI agents in production. We care about the
+unglamorous parts that make agents trustworthy at scale: lifecycle, memory,
+cost, security, and observability.
+
+## What we build
+
+Our flagship project, **Vesper**, is an infrastructure layer that wraps around
+your existing agent logic. Instead of hand-writing plumbing for every agent, you
+declare it once in a single YAML manifest and Vesper manages the rest through a
+7-layer architecture:
+
+- **Lifecycle & registry** — declarative, versioned agents executed across multiple providers.
+- **Memory** — persistent, stateful context across runs.
+- **FinOps** — real-time cost tracking and hard budget caps.
+- **Security & quality** — guardrails, policy-as-code, and eval gating (on the roadmap).
+- **Communication** — coordination across multi-agent fleets (on the roadmap).
+
+The result is the same declarative, ops-grade model teams already trust for
+infrastructure — applied to AI agents.
+
+## What we value
+
+- **Declarative & versioned** — agents as manifests, applied and versioned like code.
+- **Governed by default** — cost, security, and audit are first-class, not afterthoughts.
+- **Developer-first** — precise, code-forward tooling with a CLI and SDK.
+- **Open by intent** — we're building toward public, open-source releases.
+
+---
+
+<div align="center">
+<sub>Building the Kubernetes for AI agents.</sub>
+</div>
